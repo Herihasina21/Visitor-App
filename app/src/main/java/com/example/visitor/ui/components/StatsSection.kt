@@ -30,19 +30,19 @@ fun StatsSection(stats: Stats) {
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             StatCard(
-                label    = "Total payé",
+                label    = "Tarif Total payé",
                 value    = stats.totalPaid.toAriary(),
                 color    = Color(0xFF3F72E2),
                 modifier = Modifier.weight(1f)
             )
             StatCard(
-                label    = "Minimum",
+                label    = "Tarif Minimum",
                 value    = stats.minPaid.toAriary(),
                 color    = Color(0xFF2EC486),
                 modifier = Modifier.weight(1f)
             )
             StatCard(
-                label    = "Maximum",
+                label    = "Tarif Maximum",
                 value    = stats.maxPaid.toAriary(),
                 color    = Color(0xFFFF6358),
                 modifier = Modifier.weight(1f)
